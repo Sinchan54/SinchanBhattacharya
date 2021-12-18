@@ -1,0 +1,374 @@
+ul {
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  height: 0;
+  width: 5%;
+  border-color: #a3d2ca;
+  margin: 50px auto 50px;
+}
+
+h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.8rem;
+  color: #14b1ab;
+}
+
+h3 {
+  font-family: 'Courier Prime', monospace;
+  color: #11999e;
+}
+
+a {
+  color: #27496d;
+  margin: 10px 30px;
+}
+
+a:hover {
+  opacity: 65%;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.bd {
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Sans SC', sans-serif;
+  background-color: #ffffff;
+}
+
+.white {
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.color1{
+  background-color: #cbf1f5;
+  padding: 5px;
+}
+
+.color2{
+  background-color: #a6e3e9;
+  padding: 5px;
+}
+
+.color3{
+  background-color: #71c9ce;
+  padding: 5px;
+}
+
+.last{
+  background-image: url(gr1.png);
+  background-size: 100% 103%;
+  opacity: 93%;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.top-container {
+  position: relative;
+  padding-top: 30px;
+  background-color: #aee1e1;
+  background-image: url(gr1.png);
+  background-size: 100% 103%;
+}
+
+/* font-size
+16px = 100% = 1em
+*/
+.name {
+  font-size: 3.2rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+}
+
+.bio {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.gr {
+  position: relative;
+  width: 100%;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.middle-container {
+  margin: 50px 0 20px;
+}
+
+.tm{
+  border-radius: 60%;
+  height: 53px;
+  width: 57px;
+}
+
+.mypic {
+  height: 270px;
+  width: 290px;
+  border-radius: 60%;
+}
+
+.bio2 {
+  width: 70%;
+  margin: auto;
+  color: #40514e;
+}
+
+.skill-row {
+  width: 65%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.edu {
+  width: 25%;
+  border-radius: 40%;
+  float: left;
+  margin-right: 50px;
+}
+
+.sk1 {
+  color: #27496d;
+  position: relative;
+  right: 30px;
+}
+
+.hob {
+  width: 25%;
+  border-radius: 40%;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.chat1 {
+  height: 30%;
+  width: 60%;
+}
+
+.lastin{
+  color: #ffffff;
+}
+/*
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #21edea), color-stop(1, #16759e));
+  background: -moz-linear-gradient(center top, #21edea 5%, #16759e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#21edea', endColorstr='#16759e');
+  background-color: #21edea;
+  -webkit-border-top-left-radius: 30px;
+  -moz-border-radius-topleft: 30px;
+  border-top-left-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  -moz-border-radius-bottomright: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+  -moz-border-radius-bottomleft: 30px;
+  border-bottom-left-radius: 30px;
+  text-indent: 0;
+  border: 2px solid #000000;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 39px;
+  line-height: 39px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #16759e), color-stop(1, #21edea));
+  background: -moz-linear-gradient(center top, #16759e 5%, #21edea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#16759e', endColorstr='#21edea');
+  background-color: #16759e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+*/
+
+.btn {
+	box-shadow:inset 0px 1px 3px 0px #708c88;
+	background:linear-gradient(to bottom, #000000 5%, #700202 100%);
+	background-color:#000000;
+	border-radius:34px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 38px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #700202 5%, #000000 100%);
+	background-color:#700202;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn1 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:3px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 36px;
+	text-decoration:none;
+	text-shadow:0px 4px 2px #ffffff;
+}
+.btn1:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.btn1:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+
+.bottom-container {
+  background-color: #000000;
+  padding: 30px 0 20px;
+}
+
+.facebook {
+  height: 30px;
+  width: 30px;
+}
+
+.envelop {
+  height: 30px;
+  width: 30px;
+}
+
+.linkedin {
+  height: 30px;
+  width: 30px;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+
+/*
+-----------------THIS IS THE EDUCATION PAGE SPECIFIC REGION--------------------------
+*/
+
+
+.top-containeredu {
+  background-color: #4ea0ae;
+  position: relative;
+}
+
+.educa {
+margin: 0;
+  font-size: 350%;
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  color: #ffffff;
+}
+
+.tdedu {
+  border: 1px solid #24a19c;
+}
+.edutab{
+  width: 100%;
+}
+
+.others {
+  width: 100%;
+  margin: 0 auto 0;
+  padding: 0;
+}
+
+.edulink {
+  color: #3282b8;
+  margin: 10px 30px;
+}
+
+.edulink:hover {
+  opacity: 60%;
+}
+
+.bottom-containeredu {
+  background-color: #000000;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+
+/*
+-----------------THIS IS THE PROGRAMMING PAGE SPECIFIC REGION------------------------
+*/
+.top-containerpro {
+  background-color: #4ea0ae;
+  position: relative;
+
+}
+
+.bottom-containerpro {
+  background-color: #000000;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+
+/*
+-----------------THIS IS THE PROJECTS PAGE SPECIFIC REGION---------------------------
+*/
+.top-containerproject {
+  background-color: #4ea0ae;
+  position: relative;
+}
+
+.bottom-containerproject {
+  background-color: #000000;
+  padding: 30px 0 20px;
+  text-align: center;
+}
